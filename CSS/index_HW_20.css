@@ -1,6 +1,15 @@
-.card_main {
-    text-align: left;
-    height: 100%;
-    width: 50%;
-    display: inline-block;
+body {
+    margin: 0;
+    font-family: Roboto, Noto, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: #eeeeee;
+  }
+
+
+  .card_main {
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
   }
